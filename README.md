@@ -317,6 +317,8 @@ The screenshots in this README show the dashboard running against the supplied l
 
 ## Author
 
+**Ishit Patel**
+
 GitHub: [@ishit-patel02](https://github.com/ishit-patel02)
 
 ## Licence
