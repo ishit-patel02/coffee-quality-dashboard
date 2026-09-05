@@ -1,0 +1,39 @@
+# coffee.csv IS tracked: it is a subset of an MIT-licensed public dataset.
+# See data/DATA-LICENSE.txt. Other local data drops stay out of the repository.
+/data/*.csv
+/data/*.zip
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.Renviron
+.Renviron.*
+!.Renviron.example
+.Rprofile
+
+# R packages, sessions and generated plots
+/.R-library/
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+Rplots.pdf
+.Rproj.user/
+rsconnect/
+
+# Machine, editor and temporary files
+.DS_Store
+._*
+__MACOSX/
+.idea/
+.vscode/
+*.log
+*.tmp
+*.swp
+*~
+
+# Local reports and archives; retain private backups outside this repository.
+/*.zip
+/*.html
+/*.pdf
